@@ -1,0 +1,508 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    font-size: 30px;
+    color: blue;
+}
+nav {
+    display: none;
+
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 10px;
+  
+
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+
+
+.Menu {
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+
+}
+
+.divider {
+    height: 3px;
+    width: 27px;
+    background-color: red;
+    margin-top: 5px;
+
+}
+
+/* Second_page */
+
+.Second_page {
+    background-image: url(images/swim.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.second_page_container {
+    margin-top: 350px;
+    margin-left: 0%;
+
+}
+
+.sec_box {
+    background-image: url(images/f13.png);
+    height: 250px;
+    width: 300px;
+    color: white;
+    margin-top: 20px;
+
+}
+/* .Sec_one {
+    background-image: url(images/f14.png);
+    height: 250px;
+    width: 2500px;
+
+} */
+.Sec_one{
+    background-image: url(images/f14.png);
+    width: 300px;
+}
+
+.Sec_two {
+    background-image: url(images/f15.png);
+    height: 250px;
+    width: 300px;
+
+}
+.Sec_three{
+    background-image: url(images/f7.png);
+    height: 250px;
+    width: 300px;
+
+}
+.sec_four {
+    background-image: url(images/f16.png);
+    height: 250px;
+    width: 300px;
+
+}
+
+.sec_box h3 {
+    font-size: 35px;
+    padding: 0% 1%;
+    margin-left: 10px;
+    width: 150px;
+}
+
+.sec_box p {
+    font-size: 18px;
+    padding: 2% 3%;
+    width: 250px;
+    margin-top: 35px;
+}
+
+.sec_box img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: -25%;
+    left: 80%;
+}
+/* Third_page  */
+
+.Third_page {
+    margin-top: 200%;
+    margin-left: -2%;
+}
+.Third_page img {
+    height: 250px;
+    width: 300px;
+}
+.top {
+    margin-left: 4%;
+}
+ .textArea {
+    background-color: whitesmoke;
+    width: 300px;
+    padding-block: 10%;
+    text-align: center;
+}
+.btn1{
+    padding: 2% 6%;
+    background: linear-gradient(326deg, rgba(233,82,26,1) 25%, rgba(233,15,15,1) 85%);
+    color: wheat;
+    margin-top: 20%;
+}
+/* fourth_page  */
+.fourth_page {
+    background-image: url(images/f6.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    margin-top: 5%;
+}
+.fourth_page .textarea {
+    background-color: rgb(238, 47, 79);
+    color: white;
+    padding: 1% 10%;
+    margin-left: -1%;
+    height: 270px;
+    margin-top: -8px;
+}
+.fourth_page .textarea h3 {
+    font-size: 22px;
+    padding-block: 2%;
+}
+.fourth_page .textarea p {
+    font-size: 15px;
+    padding-block: 8%;
+}
+.fourth_page .textarea span {
+    font-size: 12px;
+    /* padding-block: 10%; */
+}
+button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    outline: none;
+    border: none;
+}
+/* fifth_top  */
+.fifth_page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fifth_top  {
+    background-image: url(images/f16.png);
+    height: 300px;
+    width: 300px;
+    color: white;
+
+}
+.fifth_top h2 {
+    text-align: left;
+    padding-block: 10%;
+    margin-left: 10%;
+}
+.fifth_top ul {
+    margin-left: 10%;
+}
+.fifth_btoom{
+    background-image: url(images/f5.png);
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    
+}
+/* sixth_page  */
+.sixth_page {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.sixth_page .six_box1 {
+    height: 300px;
+    background-color: whitesmoke;
+}
+.sixth_page .six_box1 img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    left: 32%;
+    top: -10%;
+}
+.six_box1 p {
+    padding:  0 10%;
+}
+.six_box1 span {
+    padding: 10% 5%;
+    margin-left: 5%;
+    color: red;
+
+}
+/* seventh_page  */
+.seventh_page{
+   
+    display: flex;
+    flex-direction: column;
+
+}
+.seventh_left {
+    color: white;
+  padding-left: 5%;
+  height: 400px;
+  background-color: blue;
+
+}
+.seventh_left .email {
+    font-size: 18px;
+}
+.seventh_left span img {
+    height: 30px;
+    margin-top: 20px;
+}
+
+.social img {
+    height: 30px;
+    margin-top: 50px;
+   
+}
+
+.seventh_left h4 {
+    font-size: 35px;
+    padding-bottom: 5%;
+}
+.seventh_left p {
+    font-size: 22px;
+}
+.seventh_left span {
+    font-size: 25px;
+    padding-block: 10%;
+    /* margin-top: -5%; */
+    line-height: 40px;
+}
+.seventh_right {
+    height: 400px;
+    width: 300px;
+}
+footer p {
+    background-color: lightgray;
+    padding: 1%;
+    text-align: center;
+
+}
+
+/* //tablet */
+
+@media (min-width:768px) {
+
+    nav ul {
+        display: none;
+    }
+
+    .second_page_container {
+        gap: 10px;
+        margin-left: 15%;
+    }
+    .second_page_container .sec_box {
+        width: 450px;
+    }
+    .sec_box h3 {
+        font-size: 40px;
+        padding: 0% 1%;
+        margin-left: 40px;
+        width: 350px;
+    }
+    
+    .sec_box p {
+        font-size: 24px;
+        padding: 2% 3%;
+        width: 300px;
+        margin-top: 30px;
+    }
+    .Third_page {
+        margin-top: 130%;
+    }
+    .top , .bottom{
+        display: flex;
+        flex-direction: row;
+        gap:40px;
+        margin-top: 20px;
+    }
+    .top {
+        margin-left: -2.5%;
+    }
+    .top .textArea {
+        width: 320px;
+    }
+    .bottom .textArea {
+        width: 300px;
+    }
+    .thrd_container img {
+        width: 350px;
+    }
+    .fourth_page .textarea {
+        width: 400px;
+       
+    }
+    .fifth_page {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .fifth_top , .fifth_btoom {
+        width: 350px;
+    }
+    .fifth_top ul {
+        line-height: 35px;
+    }
+    .six_box1 {
+        font-size: 30px;
+    }
+    .seventh_page{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .social img {
+        height: 40px; 
+        margin-top: 20%;
+    }
+    
+    .seventh_left h4 {
+        font-size: 35px;
+        padding-bottom: 5%;
+        margin-top: 10%;
+
+    }
+    .seventh_left span {
+        font-size: 25px;
+        padding-block: 10%;
+        /* margin-top: -5%; */
+        line-height: 40px;
+    }
+    .seventh_left .email {
+        font-size: 20px;
+        margin-top: 10%;
+    }
+}
+
+/* //laptop */
+
+@media (min-width:1024px) {
+
+    nav {
+        display: block;
+    }
+    nav ul {
+        display: flex;
+    }
+
+    .Menu {
+        display: none;
+    }
+    .second_page_container {
+       display: flex;
+       flex-direction: row;
+       margin-left: -1%;
+       margin-top: 45%;
+    }
+    .second_page_container .sec_box {
+        width: 280px;
+        height: 300px;
+    }
+    .sec_box h3 {
+        font-size: 35px;
+        padding: 0% 1%;
+        margin-left: 10px;
+        width: 400px;
+    }
+    
+    .sec_box p {
+        font-size: 18px;
+        padding: 2% 3%;
+        width: 160px;
+        margin-top: 30px;
+    }
+    .Third_page {
+        margin-top: 15%;
+    }
+    .Third_page .top {
+        margin-left: 1%;
+    }
+    .Third_page img {
+        width: 510px;
+        height: 400px;
+       
+    }
+    .Third_page .textArea {
+        width: 510px;
+        font-size: 28px;
+        padding: 2% 5%;
+       
+    }
+    .fourth_page .textarea {
+        width: 600px;
+        /* height: 300px;
+        margin-top: -50px; */
+       
+    }
+    .fifth_page {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .fifth_top , .fifth_btoom {
+        width: 600px;
+        height: 400px;
+    }
+    .fifth_top h2 {
+        font-size: 35px;
+    }
+    .fifth_top ul {
+        line-height: 40px;
+    }
+    .fifth_top ul li {
+        font-size: 22px;
+
+    }
+    .sixth_page {
+        margin-top: 10%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+       
+    
+    }
+    .six_box1 {
+        font-size: 18px;
+    }
+     .seventh_left {
+        width: 500px;
+    }
+    .seventh_right {
+        width: 600px;
+        border: 2px solid black;
+    }
+
+
+
+
+
+
+}
